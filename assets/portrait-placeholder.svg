@@ -1,0 +1,9 @@
+<svg width="640" height="800" viewBox="0 0 640 800" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">suwuyuan portrait placeholder</title>
+  <desc id="desc">A minimal warm-toned placeholder image with the letters SWY.</desc>
+  <rect width="640" height="800" fill="#FFFAF2"/>
+  <rect x="56" y="56" width="528" height="688" rx="20" fill="#F1E7D8" stroke="#D8CAB9" stroke-width="2"/>
+  <circle cx="320" cy="292" r="112" fill="#D8CAB9"/>
+  <path d="M168 618C184 512 242 460 320 460C398 460 456 512 472 618" stroke="#5F6F52" stroke-width="34" stroke-linecap="round"/>
+  <text x="320" y="702" text-anchor="middle" fill="#36432E" font-family="Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="0">SWY</text>
+</svg>

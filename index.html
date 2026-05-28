@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="suwuyuan 的个人网站：个人简介、作品档案、资源分享和碎碎念。"
+    >
+    <title>suwuyuan | 个人网站</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="回到首页">suwuyuan</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle__line"></span>
+        <span class="nav-toggle__line"></span>
+        <span class="nav-toggle__line"></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="主导航">
+        <a href="#about">个人简介</a>
+        <a href="#works">个人作品</a>
+        <a href="#resources">资源分享</a>
+        <a href="#notes">碎碎念</a>
+        <a href="#contact">联系方式</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero__content">
+          <p class="eyebrow">Personal archive</p>
+          <h1>你好，我是 suwuyuan。</h1>
+          <p class="hero__intro">
+            这里会慢慢收集我的经历、作品、常用资源和一些零散想法。第一版先保持安静、清楚、好维护。
+          </p>
+          <div class="hero__actions" aria-label="快速入口">
+            <a class="button button--primary" href="#works">查看作品</a>
+            <a class="button" href="#contact">联系我</a>
+          </div>
+        </div>
+        <figure class="portrait">
+          <img src="assets/portrait-placeholder.svg" alt="suwuyuan 的头像占位图">
+          <figcaption>头像或个人标识占位</figcaption>
+        </figure>
+      </section>
+
+      <section class="section split" id="about">
+        <div>
+          <p class="section-label">01 / About</p>
+          <h2>个人简介</h2>
+        </div>
+        <div class="section-body">
+          <p>
+            这里写一段 80 到 150 字的自我介绍：你正在关注什么、擅长什么、希望通过这个网站展示什么。
+            现在先用占位文字，等你准备好后直接替换即可。
+          </p>
+          <dl class="fact-list">
+            <div>
+              <dt>定位</dt>
+              <dd>学生 / 创作者 / 研究者 / 待补充</dd>
+            </div>
+            <div>
+              <dt>关注</dt>
+              <dd>AI、产品、写作、设计、学习方法</dd>
+            </div>
+            <div>
+              <dt>当前状态</dt>
+              <dd>正在搭建自己的长期个人档案</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section" id="works">
+        <div class="section-heading">
+          <p class="section-label">02 / Works</p>
+          <h2>个人作品</h2>
+          <p>先保留分类框架，等方向明确后再替换成真实领域和项目。</p>
+        </div>
+        <div class="filter-tabs" aria-label="作品分类筛选">
+          <button class="filter-tab is-active" type="button" data-filter="all">全部</button>
+          <button class="filter-tab" type="button" data-filter="category-a">分类 A</button>
+          <button class="filter-tab" type="button" data-filter="category-b">分类 B</button>
+          <button class="filter-tab" type="button" data-filter="category-c">分类 C</button>
+        </div>
+        <div class="work-grid">
+          <article class="work-card" data-category="category-a">
+            <p class="card-meta">分类 A</p>
+            <h3>作品标题一</h3>
+            <p>用两三句话说明这个作品解决了什么问题、你负责了什么、结果如何。</p>
+            <a href="#contact" aria-label="联系了解作品标题一">了解更多</a>
+          </article>
+          <article class="work-card" data-category="category-b">
+            <p class="card-meta">分类 B</p>
+            <h3>作品标题二</h3>
+            <p>这里可以放写作、研究、设计、产品、编程或其他任何方向的作品。</p>
+            <a href="#contact" aria-label="联系了解作品标题二">了解更多</a>
+          </article>
+          <article class="work-card" data-category="category-c">
+            <p class="card-meta">分类 C</p>
+            <h3>作品标题三</h3>
+            <p>后续可以把每个作品改成链接，指向文章、PDF、视频或项目页面。</p>
+            <a href="#contact" aria-label="联系了解作品标题三">了解更多</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split" id="resources">
+        <div>
+          <p class="section-label">03 / Resources</p>
+          <h2>资源分享</h2>
+        </div>
+        <div class="resource-list">
+          <article>
+            <p class="card-meta">工具</p>
+            <h3>常用工具清单</h3>
+            <p>记录你常用的软件、网站、插件或工作流。</p>
+          </article>
+          <article>
+            <p class="card-meta">阅读</p>
+            <h3>值得反复读的内容</h3>
+            <p>放书、文章、课程、播客，附上你自己的短评。</p>
+          </article>
+          <article>
+            <p class="card-meta">学习</p>
+            <h3>学习笔记索引</h3>
+            <p>未来可以链接到 Notion、飞书文档、博客文章或 PDF。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="notes">
+        <div class="section-heading">
+          <p class="section-label">04 / Notes</p>
+          <h2>碎碎念</h2>
+          <p>短想法、阶段记录、观察和小结。</p>
+        </div>
+        <div class="note-list">
+          <article>
+            <time datetime="2026-05-28">2026.05.28</time>
+            <p>网站的第一天：先把结构搭出来，不急着一次写完所有内容。</p>
+          </article>
+          <article>
+            <time datetime="2026-05-28">2026.05.28</time>
+            <p>极简不是空，而是让重要的信息更容易被看见。</p>
+          </article>
+          <article>
+            <time datetime="2026-05-28">2026.05.28</time>
+            <p>以后每增加一个作品，都写清楚背景、过程和结果。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <p class="section-label">05 / Contact</p>
+        <h2>联系方式</h2>
+        <p>把这里替换成你的真实邮箱、GitHub、社交平台或简历 PDF。</p>
+        <div class="contact-links">
+          <a href="mailto:hello@example.com">hello@example.com</a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="#" aria-label="简历 PDF 占位链接">简历 PDF</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 suwuyuan. Built with HTML, CSS and a little JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
